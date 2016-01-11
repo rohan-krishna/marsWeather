@@ -1,0 +1,60 @@
+/* Empty. Add your own CSS if you like */
+.temperature-wrapper {
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+  	left: 50%;
+  	top: 40%;
+  	transform: translate(-50%, -50%);
+  	width: 100%;
+}
+.temperature-text {
+	color: #F44336;
+	font-size: 6em;
+	font-weight: 200;
+	display: block;
+	clear: both;
+
+}
+.meta-wrapper {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	display: block;
+	clear: both;
+}
+.meta-info {
+	width: 100%;
+	background: rgba(21,21,21,0.8);
+	text-align: center;
+
+}
+.col {
+	border-right: 1px solid #111;
+	color: #fff;
+	font-size: 0.8em;
+}
+.col:last-child {
+	border: 0;
+}
+.atmo-text {
+	font-size: 1.52em;
+	background:#FF5722;
+	color: #fff;
+	width: 100%;
+	display: block;
+	padding: 1.52em;
+	text-align: center;
+}
+.app-wrapper {
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	z-index: 1;
+}
+.pane {
+	background: url("../img/102234410010.jpg") no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
